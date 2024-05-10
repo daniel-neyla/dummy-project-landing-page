@@ -1,0 +1,27 @@
+:root {
+  --primary-color-dark: #1f2937;
+  --secondary-color-blue: #3882f6;
+  --small-fs: 18px;
+  --normal-fs: 24px;
+  --super-big-fs: 48px;
+  --big-fs: 36px;
+  --secondary-color-grey: #e5e7eb;
+  --primary-color-white: #f9faf8;
+  --quote-text-fs: #1f2937;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
