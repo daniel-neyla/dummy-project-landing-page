@@ -99,3 +99,43 @@ nav .logo {
   background-color: var(--secondary-color-blue);
   color: var(--primary-color-white);
 }
+
+/* Info section  */
+#info-section {
+  padding: 5em 25em 10em 25em;
+  text-align: center;
+}
+
+.info-header {
+  font-size: var(--big-fs);
+  color: var(--primary-color-dark);
+  margin-bottom: 1.5em;
+  font-weight: bolder;
+}
+
+.info-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5em;
+}
+
+.info-img {
+  border: 3px solid var(--secondary-color-blue);
+  border-radius: 10px;
+  margin-bottom: 0.5em;
+  width: 100%;
+  height: 0;
+  padding-top: 100%; /* This creates a square based on the width */
+  position: relative;
+}
+
+/* .info-img > * {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+} */
+
+.info-subtext {
+  font-size: var(--small-fs);
+  color: var(--primary-color-dark);
+}
