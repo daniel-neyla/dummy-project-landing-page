@@ -139,3 +139,34 @@ nav .logo {
   font-size: var(--small-fs);
   color: var(--primary-color-dark);
 }
+
+/* Blockquote section */
+#quote-section {
+  background-color: var(--secondary-color-grey);
+  padding: 5em 25em 10em 25em;
+}
+
+blockquote {
+  color: var(--primary-color-dark);
+}
+
+blockquote p {
+  font-size: var(--big-fs);
+  /* padding: 15px; */
+  font-weight: lighter;
+  font-style: italic;
+}
+
+blockquote p::before {
+  content: "\201C";
+}
+
+blockquote p::after {
+  content: "\201D";
+}
+
+blockquote footer {
+  font-weight: bold;
+  font-size: var(--normal-fs);
+  text-align: right;
+}
