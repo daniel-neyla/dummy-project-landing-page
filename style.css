@@ -170,3 +170,32 @@ blockquote footer {
   font-size: var(--normal-fs);
   text-align: right;
 }
+
+/* Cta section */
+#cta-section {
+  padding: 8em 15em 8em 15em;
+}
+
+.cta-container {
+  background-color: var(--secondary-color-blue);
+  display: flex;
+  justify-content: space-between;
+  padding: 4em 10em 4em 10em;
+  border-radius: 10px;
+}
+
+.cta-container h3 {
+  font-size: var(--normal-fs);
+  color: var(--primary-color-white);
+}
+
+.cta-container p {
+  font-size: var(--small-fs);
+  color: var(--secondary-color-grey);
+}
+
+.cta-btn {
+  color: var(--primary-color-white);
+  background-color: var(--secondary-color-blue);
+  border: 3px solid var(--primary-color-white);
+}
